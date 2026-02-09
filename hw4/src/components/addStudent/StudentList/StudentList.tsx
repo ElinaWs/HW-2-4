@@ -1,5 +1,5 @@
 import type { Student } from "../../../Types/Types"
-import { AddStudent } from "../AddStudent"
+import { AddStudent } from "../addStudent"
 import styles from "./styles.module.css"
 
 interface Props {
