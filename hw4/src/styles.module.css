@@ -1,0 +1,6 @@
+.buttons {
+  align-items: first baseline;
+  color: rgb(245, 226, 247);
+  background-color: rgb(235, 79, 173);
+  gap: 12px;
+}

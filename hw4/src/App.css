@@ -40,3 +40,8 @@
 .read-the-docs {
   color: #888;
 }
+.buttons {
+  align-items: first baseline;
+  color: rgb(245, 226, 247);
+  background-color: rgb(235, 79, 173);
+}

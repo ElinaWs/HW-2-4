@@ -1,16 +1,17 @@
 import type { Student } from "../../../Types/Types"
-import { addStudent } from "../addStudent"
+import { AddStudent } from "../AddStudent"
+import styles from "./styles.module.css"
 
 interface Props {
-    students: Student[]
+  students: Student[]
 }
 
 export const StudentList = ({ students }: Props) => {
-    return(
-        <div>
-            {students.map((student) => (
-                <addStudent student = {student}/>
-            ))}
-        </div>
-    )
-}
+  return (
+    <div className={styles.container}>
+      {students.map((student) => (
+        <AddStudent key={student.id} student={student} />
+      ))}
+    </div>
+  );
+};
